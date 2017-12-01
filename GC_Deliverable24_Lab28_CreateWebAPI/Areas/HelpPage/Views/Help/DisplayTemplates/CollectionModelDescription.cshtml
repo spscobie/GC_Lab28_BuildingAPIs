@@ -1,0 +1,6 @@
+@using GC_Deliverable24_Lab28_CreateWebAPI.Areas.HelpPage.ModelDescriptions
+@model CollectionModelDescription
+@if (Model.ElementDescription is ComplexTypeModelDescription)
+{
+    @Html.DisplayFor(m => m.ElementDescription)
+}
